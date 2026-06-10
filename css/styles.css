@@ -853,3 +853,25 @@ body {
     width: 100%;
   }
 }
+/* MOBILE */
+@media (max-width: 560px) {
+  .brand {
+    gap: 10px;
+  }
+
+  .brand-logo {
+    width: 86px;
+    height: 54px;
+    background: transparent;
+    border-radius: 0;
+    overflow: visible;
+    flex-shrink: 0;
+  }
+
+  .brand-logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+}
